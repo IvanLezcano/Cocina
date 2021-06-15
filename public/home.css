@@ -1,20 +1,138 @@
 .home{
     background-image: url("./img/bg-body.png");
-
+    padding: 0 10px;
 }
-
-.home li{
-    color: blue;
-}
-
 
 /* header */
+.home header img{
+    display: block;
+    width: 180px;
+    border-radius: 50%;
+    border: 2px gray solid;
+    /* margin: auto;
+    margin-top: 15px !important;
+    margin-bottom: 30px !important; */
+    margin: 15px auto 30px;
+}
+
+.home header li{
+    width: 100%;
+    background-color: grey;
+    margin-bottom:2px ;
+    padding: 10px 0;
+    text-align: center;
+
+    
+}
+.home header li:last-child{
+    margin-bottom: none;
+}
+
+.home header a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.home button{
+    display: block;
+    margin: 30px auto;
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
 
 
 /* banber */
 
+.home .banner img{
+    display: none; 
+
+}
+
 
 /* products */
+.home .producto{
+    margin: 30px 0;
+}
+.home article{
+    width: 100%;
+    position: relative;
 
+}
+.home article img{
+    width: 100%;
+}
+.home article .etiqueta{
+    position: absolute;
+    width: 70px;
+    top: 0;
+    right: 10px;
+}
+
+.home article .zoom{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    text-decoration: none;
+    padding: 6px;
+}
+.home article a.more{
+    display: inline-block;
+    background-color: grey;
+    width: 80px;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    text-decoration: none;
+    margin: 10px 0 10px;
+}
+.home article h4,p{
+    margin: 10px 0;
+
+}
 
 /* footer */
+
+.home footer img{
+    display: block;
+    width: 180px;
+    border-radius: 50%;
+    border: 2px gray solid;
+    /* margin: auto;
+    margin-top: 15px !important;
+    margin-bottom: 30px !important; */
+    margin: 15px auto 30px;
+}
+
+.home footer li{
+    width: 100%;
+    background-color: rgb(248, 50, 43);
+    margin-bottom:2px ;
+    padding: 10px 0;
+    text-align: center;   
+}
+.home footer li:last-child{
+    margin-bottom: none;
+}
+
+.home footer a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
