@@ -60,13 +60,13 @@ li{
 
 /* products */
 .home .producto{
+    margin: 30px 0;
     width:100%;
 
     margin: 30px 0;
 }
 .home article{
     width: 100%;
-    position: relative;
 
 }
 .home article img{
@@ -78,6 +78,10 @@ li{
     top: 0;
     right: 10px;
 }
+.home article .imagen{
+    position: relative;
+
+}
 
 .home article .zoom{
     display: block;
@@ -86,9 +90,9 @@ li{
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     width: 100%;
-    position: relative ; 
-    right: 0px;
-    top:-40px;
+    position: absolute ; 
+    left: 0px;
+    top:45%;
 
     
     
@@ -108,6 +112,9 @@ li{
 .home article h4,p{
     margin: 10px 0;
 
+}
+.home article h4{
+    margin-top: 0;
 }
 
 /* footer */
@@ -146,10 +153,18 @@ li{
 
 @media (min-width: 768px){
 
+
+
     .home header li{
         background-color: blue;
+        display: inline-block;
+        width: 16.2%;
+        
     }
-    
+   
+    .home header li:last-child{
+
+    }
 
 
 }
