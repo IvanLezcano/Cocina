@@ -181,6 +181,27 @@ li{
         display: inline-block;
         width: 49.6%;
     }
+    .home footer{
+        background-color: brown;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .home footer ul{
+
+      
+    }
+    .home footer li {
+        display: inline-block;
+        width: 14.2%;
+        margin-left: 10px;
+        border-bottom: none;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        text-transform: capitalize;
+    
+    }
 
 
 }
@@ -188,9 +209,30 @@ li{
 @media (min-width: 1024px){
 
 .home article{
-    width: 33%;
+    width: 32%;
 }
 .home header li{
-    width: 16.45%;
+    width: 16.33%;
 }
+.home header ul{
+    margin-left: 0 !important;
+}
+.home footer{
+    background-color: brown;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.home footer li {
+    display: inline-block;
+    width: 16%;
+    border-bottom: none;
+    margin: 0;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 8px 0;
+
+
 }
