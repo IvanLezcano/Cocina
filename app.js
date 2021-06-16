@@ -5,6 +5,8 @@ const views = path.join(__dirname,"views")
 app.use(express.static("public"));
 console.log(__dirname);
 
+require("dotenv").config();
+
 
 const port = process.env.PORT || 3030;
 

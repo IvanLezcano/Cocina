@@ -174,9 +174,7 @@ li{
 
     }
    
-    .home header li:last-child{
-
-    }
+    
     .home article{
         display: inline-block;
         width: 49.6%;
@@ -188,10 +186,7 @@ li{
         padding-bottom: 60px;
         border-radius: 10px 10px 10px 10px;
     }
-    .home footer ul{
-
-      
-    }
+    
     .home footer li {
         display: inline-block;
         width: 14.2%;
@@ -235,4 +230,4 @@ li{
     padding: 8px 0;
 
 
-}
+}}
